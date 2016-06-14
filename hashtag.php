@@ -4,7 +4,8 @@ require 'twitter.php';
 
 
 $k = new Twitter();
-$hashtags = $k->hashtag("custserv");
+$htag = "entrepeneur";
+$hashtags = $k->hashtag($htag);
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +14,7 @@ $hashtags = $k->hashtag("custserv");
 	<title>Hashtag</title>
 </head>
 <body>
+<h1>Tweets with Hashtag: <u><?php echo $htag;?></u></h1>
 <?php foreach ($hashtags as $h): ?>
 <p><?php echo $h;?></p><br>
 <?php endforeach ?>

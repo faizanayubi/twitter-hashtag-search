@@ -9,9 +9,10 @@ $retweets = $k->retweets();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hashtag</title>
+	<title>Retweets</title>
 </head>
 <body>
+<h1>Retweets</h1><hr><br>
 <?php foreach ($retweets as $t): ?>
 <p><?php echo $t;?></p><br>
 <?php endforeach ?>
