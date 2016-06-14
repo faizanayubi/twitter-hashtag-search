@@ -4,9 +4,9 @@ require 'tmhOAuth.php';
 require 'config.php';
 
 /**
-* kayako class to find retweers and # search with twitter
+* twitter class to find retweers and # search with twitter
 */
-class Kayako {
+class Twitter {
 
 	public $twitter;
 	public $http_code;

@@ -1,9 +1,9 @@
 <?php
 
-require 'kayako.php';
+require 'twitter.php';
 
 
-$k = new Kayako();
+$k = new Twitter();
 $hashtags = $k->hashtag("custserv");
 ?>
 
